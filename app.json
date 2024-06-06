@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "mercado2",
+    "slug": "mercado2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-davo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/telinha-inicial.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff0000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-davo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.gabrielsilvacarneiro.mercado2"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo-davo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c9159345-6efb-4abc-a9d4-81e719932428"
+      }
+    }
+  }
+}
