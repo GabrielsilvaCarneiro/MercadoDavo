@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mercado2",
-    "slug": "mercado2",
+    "name": "MercadoDavo",
+    "slug": "MercadoDavo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo-davo.png",
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/logo-davo.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.gabrielsilvacarneiro.mercado2"
+      "package": "com.gabrielsilvacarneiro.MercadoDavo"
     },
     "web": {
       "bundler": "metro",
@@ -38,7 +38,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "c9159345-6efb-4abc-a9d4-81e719932428"
+        "projectId": ""
       }
     }
   }
